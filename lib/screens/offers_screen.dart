@@ -26,7 +26,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "10 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),      
+        expiredate: DateTime.now(),
+        email: "mail@etisalat.com",phone: "01116805555"),      
   
     OffersModel(
         image: "assets/images/visa.png",
@@ -35,7 +36,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "40 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),
+        expiredate: DateTime.now(),
+        email: "mail@etisalat.com",phone: "01116805555"),
     OffersModel(
         image: "assets/images/study.png",
         rate: 2.2,
@@ -43,7 +45,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "25 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),
+        expiredate: DateTime.now(),
+        email: "mail@etisalat.com",phone: "01116805555"),
     OffersModel(
         image: "assets/images/visa.png",
         rate: 2.2,
@@ -51,7 +54,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "40 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),
+        expiredate: DateTime.now(),
+        email: "mail@etisalat.com",phone: "01116805555"),
       
        
   ];
@@ -67,7 +71,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "10 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),      
+        expiredate: DateTime.now(),
+        email: "mail@etisalat.com",phone: "01116805555"),      
   
     OffersModel(
         image: "assets/images/visa.png",
@@ -76,7 +81,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "40 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),
+        expiredate: DateTime.now(),
+        email: "mail@etisalat.com",phone: "01116805555"),
     OffersModel(
         image: "assets/images/study.png",
         rate: 2.2,
@@ -84,7 +90,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "25 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),
+        expiredate: DateTime.now(),
+        email: "mail@etisalat.com",phone: "01116805555"),
     OffersModel(
         image: "assets/images/visa.png",
         rate: 2.2,
@@ -92,7 +99,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "40 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),
+        expiredate: DateTime.now(),
+        email: "mail@etisalat.com",phone: "01116805555"),
       ],),
     CategoryModel(
       image: 'assets/images/donuts.png',
@@ -105,7 +113,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Daddy's Burger",
         offerPercenatge: "10 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),      
+        expiredate: DateTime.now(),
+        email: "mail@etisalat.com",phone: "01116805555"),      
   
     OffersModel(
         image: "assets/images/pic.png",
@@ -114,7 +123,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "40 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),
+        expiredate: DateTime.now(),
+        email: "mail@etisalat.com",phone: "01116805555"),
     OffersModel(
         image: "assets/images/desert.png",
         rate: 2.2,
@@ -122,7 +132,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "25 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),
+        expiredate: DateTime.now(),
+        email: "mail@etisalat.com",phone: "01116805555"),
     OffersModel(
         image: "assets/images/pic2.png",
         rate: 2.2,
@@ -130,7 +141,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "40 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),
+        expiredate: DateTime.now(),
+        email: "mail@etisalat.com",phone: "01116805555"),
         OffersModel(
         image: "assets/images/pic3.png",
         rate: 2.2,
@@ -138,7 +150,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "40 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),
+        expiredate: DateTime.now(),
+        email: "mail@etisalat.com",phone: "01116805555"),
   ],
     ),
     CategoryModel(
@@ -152,7 +165,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "10 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),      
+        expiredate: DateTime.now(),
+        email: "mail@etisalat.com",phone: "01116805555"),      
   
     OffersModel(
         image: "assets/images/visa.png",
@@ -161,7 +175,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "40 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),
+        expiredate: DateTime.now(),
+        email: "mail@etisalat.com",phone: "01116805555"),
     OffersModel(
         image: "assets/images/study.png",
         rate: 2.2,
@@ -169,7 +184,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "25 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),
+        expiredate: DateTime.now(),
+        email: "mail@etisalat.com",phone: "01116805555"),
     OffersModel(
         image: "assets/images/visa.png",
         rate: 2.2,
@@ -177,7 +193,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "40 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),
+        expiredate: DateTime.now(),
+        email: "mail@etisalat.com",phone: "01116805555"),
   ],
     ),
     CategoryModel(
@@ -191,7 +208,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "10 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),      
+        expiredate: DateTime.now(),
+        email: "mail@etisalat.com",phone: "01116805555"),      
   
     OffersModel(
         image: "assets/images/visa.png",
@@ -200,7 +218,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "40 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),
+        expiredate: DateTime.now(),
+        email: "mail@etisalat.com",phone: "01116805555"),
     OffersModel(
         image: "assets/images/study.png",
         rate: 2.2,
@@ -208,7 +227,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "25 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),
+        expiredate: DateTime.now(),
+        email: "mail@etisalat.com",phone: "01116805555"),
     OffersModel(
         image: "assets/images/visa.png",
         rate: 2.2,
@@ -216,7 +236,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "40 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),
+        expiredate: DateTime.now(),
+        email: "mail@etisalat.com",phone: "01116805555"),
   ],
     ),
      CategoryModel(
@@ -230,7 +251,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "10 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),      
+        expiredate: DateTime.now(),
+        email: "mail@etisalat.com",phone: "01116805555"),      
   
     OffersModel(
         image: "assets/images/visa.png",
@@ -239,7 +261,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "40 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),
+        expiredate: DateTime.now(),
+        email: "mail@etisalat.com",phone: "01116805555"),
     OffersModel(
         image: "assets/images/study.png",
         rate: 2.2,
@@ -247,7 +270,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "25 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),
+        expiredate: DateTime.now(),
+        email: "mail@etisalat.com",phone: "01116805555"),
     OffersModel(
         image: "assets/images/visa.png",
         rate: 2.2,
@@ -255,7 +279,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "40 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),
+        expiredate: DateTime.now(),
+        email: "mail@etisalat.com",phone: "01116805555"),
   ],
     ),
      CategoryModel(
@@ -269,7 +294,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "10 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),      
+        expiredate: DateTime.now(),
+        email: "mail@etisalat.com",phone: "01116805555"),      
   
     OffersModel(
         image: "assets/images/visa.png",
@@ -278,7 +304,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "40 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),
+        expiredate: DateTime.now(),
+        email: "mail@etisalat.com",phone: "01116805555"),
     OffersModel(
         image: "assets/images/study.png",
         rate: 2.2,
@@ -286,7 +313,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "25 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),
+        expiredate: DateTime.now(),
+        email: "mail@etisalat.com",phone: "01116805555"),
     OffersModel(
         image: "assets/images/visa.png",
         rate: 2.2,
@@ -294,7 +322,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "40 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),
+        expiredate: DateTime.now(),
+        email: "mail@etisalat.com",phone: "01116805555"),
        
   ],
     ), CategoryModel(
@@ -308,7 +337,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "10 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),      
+        expiredate: DateTime.now(),
+        email: "mail@etisalat.com",phone: "01116805555"),      
   
     OffersModel(
         image: "assets/images/visa.png",
@@ -317,7 +347,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "40 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),
+        expiredate: DateTime.now(),
+        email: "mail@etisalat.com",phone: "01116805555"),
     OffersModel(
         image: "assets/images/study.png",
         rate: 2.2,
@@ -325,7 +356,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "25 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),
+        expiredate: DateTime.now(),
+        email: "mail@etisalat.com",phone: "01116805555"),
     OffersModel(
         image: "assets/images/visa.png",
         rate: 2.2,
@@ -333,7 +365,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "40 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()), 
+        expiredate: DateTime.now(),
+        email: "mail@etisalat.com",phone: "01116805555"), 
        
   ],
     ), CategoryModel(
@@ -347,7 +380,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "10 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),      
+        expiredate: DateTime.now(),
+        email: "mail@etisalat.com",phone: "01116805555"),      
   
     OffersModel(
         image: "assets/images/visa.png",
@@ -356,7 +390,9 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "40 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),
+        expiredate: DateTime.now(),
+        email: "pepo@gmail.com",phone: "01229432702",
+    ),
     OffersModel(
         image: "assets/images/study.png",
         rate: 2.2,
@@ -364,7 +400,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "25 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),
+        expiredate: DateTime.now(),
+        email: "pepo@gmail.com",phone: "01229432702",),
     OffersModel(
         image: "assets/images/visa.png",
         rate: 2.2,
@@ -372,7 +409,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "40 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),
+        expiredate: DateTime.now(),
+        email: "pepo@gmail.com",phone: "01229432702",),
        
   ],
     ), CategoryModel(
@@ -386,7 +424,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "10 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),      
+        expiredate: DateTime.now(),
+        email: "pepo@gmail.com",phone: "01229432702",),      
   
     OffersModel(
         image: "assets/images/visa.png",
@@ -395,7 +434,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "40 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),
+        expiredate: DateTime.now(),
+        email: "pepo@gmail.com",phone: "01229432702",),
     OffersModel(
         image: "assets/images/study.png",
         rate: 2.2,
@@ -403,7 +443,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "25 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),
+        expiredate: DateTime.now(),
+        email: "pepo@gmail.com",phone: "01229432702",),
     OffersModel(
         image: "assets/images/visa.png",
         rate: 2.2,
@@ -411,7 +452,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "40 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),
+        expiredate: DateTime.now(),
+        email: "pepo@gmail.com",phone: "01229432702",),
        
   ],
     ),  CategoryModel(
@@ -425,7 +467,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "10 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),      
+        expiredate: DateTime.now(),
+        email: "pepo@gmail.com",phone: "01229432702",),      
   
     OffersModel(
         image: "assets/images/visa.png",
@@ -434,7 +477,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "40 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),
+        expiredate: DateTime.now(),
+        email: "pepo@gmail.com",phone: "01229432702",),
     OffersModel(
         image: "assets/images/study.png",
         rate: 2.2,
@@ -442,7 +486,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "25 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),
+        expiredate: DateTime.now(),
+        email: "pepo@gmail.com",phone: "01229432702",),
     OffersModel(
         image: "assets/images/visa.png",
         rate: 2.2,
@@ -450,7 +495,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "40 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),
+        expiredate: DateTime.now(),
+        email: "pepo@gmail.com",phone: "01229432702",),
        
   ],
     ), CategoryModel(
@@ -464,7 +510,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "10 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),      
+        expiredate: DateTime.now(),
+        email: "pepo@gmail.com",phone: "01229432702",),      
   
     OffersModel(
         image: "assets/images/visa.png",
@@ -473,7 +520,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "40 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),
+        expiredate: DateTime.now(),
+        email: "pepo@gmail.com",phone: "01229432702",),
     OffersModel(
         image: "assets/images/study.png",
         rate: 2.2,
@@ -481,7 +529,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "25 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),
+        expiredate: DateTime.now(),
+        email: "pepo@gmail.com",phone: "01229432702",),
     OffersModel(
         image: "assets/images/visa.png",
         rate: 2.2,
@@ -489,7 +538,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "40 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),
+        expiredate: DateTime.now(),
+        email: "pepo@gmail.com",phone: "01229432702",),
   ],
     ), CategoryModel(
       image: 'assets/images/RealState.png',
@@ -502,7 +552,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "10 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),      
+        expiredate: DateTime.now(),
+        email: "pepo@gmail.com",phone: "01229432702",),      
   
     OffersModel(
         image: "assets/images/visa.png",
@@ -511,7 +562,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "40 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),
+        expiredate: DateTime.now(),
+        email: "pepo@gmail.com",phone: "01229432702",),
     OffersModel(
         image: "assets/images/study.png",
         rate: 2.2,
@@ -519,7 +571,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "25 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),
+        expiredate: DateTime.now(),
+        email: "pepo@gmail.com",phone: "01229432702",),
     OffersModel(
         image: "assets/images/visa.png",
         rate: 2.2,
@@ -527,7 +580,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "40 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),
+        expiredate: DateTime.now(),
+        email: "pepo@gmail.com",phone: "01229432702",),
        
   ],
     ), CategoryModel(
@@ -541,7 +595,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "10 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),      
+        expiredate: DateTime.now(),
+        email: "pepo@gmail.com",phone: "01229432702",),      
   
     OffersModel(
         image: "assets/images/visa.png",
@@ -550,7 +605,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "40 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),
+        expiredate: DateTime.now(),
+        email: "pepo@gmail.com",phone: "01229432702",),
     OffersModel(
         image: "assets/images/study.png",
         rate: 2.2,
@@ -558,7 +614,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "25 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),
+        expiredate: DateTime.now(),
+        email: "pepo@gmail.com",phone: "01229432702",),
     OffersModel(
         image: "assets/images/visa.png",
         rate: 2.2,
@@ -566,7 +623,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "40 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),
+        expiredate: DateTime.now(),
+        email: "pepo@gmail.com",phone: "01229432702",),
        
   ],
     ), CategoryModel(
@@ -580,7 +638,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "10 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),      
+        expiredate: DateTime.now(),
+        email: "task@gmail.com",phone: "01200686884",),      
   
     OffersModel(
         image: "assets/images/visa.png",
@@ -589,7 +648,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "40 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),
+        expiredate: DateTime.now(),
+        email: "task@gmail.com",phone: "01200686884",),
     OffersModel(
         image: "assets/images/study.png",
         rate: 2.2,
@@ -597,7 +657,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "25 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),
+        expiredate: DateTime.now(),
+        email: "task@gmail.com",phone: "01200686884",),
     OffersModel(
         image: "assets/images/visa.png",
         rate: 2.2,
@@ -605,7 +666,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "40 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),
+        expiredate: DateTime.now(),
+        email: "task@gmail.com",phone: "01200686884",),
        
   ],
     ),
@@ -622,7 +684,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "10 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),      
+        expiredate: DateTime.now(),
+        email: "task@gmail.com",phone: "01200686884",),      
   
     OffersModel(
         image: "assets/images/visa.png",
@@ -631,7 +694,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "40 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),
+        expiredate: DateTime.now(),
+        email: "task@gmail.com",phone: "01200686884",),
     OffersModel(
         image: "assets/images/study.png",
         rate: 2.2,
@@ -639,7 +703,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "25 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),
+        expiredate: DateTime.now(),
+        email: "task@gmail.com",phone: "01200686884",),
     OffersModel(
         image: "assets/images/visa.png",
         rate: 2.2,
@@ -647,7 +712,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "40 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),
+        expiredate: DateTime.now(),
+        email: "task@gmail.com",phone: "01200686884",),
        
   ],
     ), CategoryModel(
@@ -661,7 +727,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "10 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),      
+        expiredate: DateTime.now(),
+        email: "task@gmail.com",phone: "01200686884",),      
   
     OffersModel(
         image: "assets/images/visa.png",
@@ -670,7 +737,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "40 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),
+        expiredate: DateTime.now(),
+        email: "task@gmail.com",phone: "01200686884",),
     OffersModel(
         image: "assets/images/study.png",
         rate: 2.2,
@@ -678,7 +746,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "25 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),
+        expiredate: DateTime.now(),
+        email: "task@gmail.com",phone: "01200686884",),
     OffersModel(
         image: "assets/images/visa.png",
         rate: 2.2,
@@ -686,7 +755,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "40 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),
+        expiredate: DateTime.now(),
+        email: "task@gmail.com",phone: "01200686884",),
        
   ],
     ), CategoryModel(
@@ -700,7 +770,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "10 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),      
+        expiredate: DateTime.now(),
+        email: "task@gmail.com",phone: "01200686884",),      
   
     OffersModel(
         image: "assets/images/visa.png",
@@ -709,7 +780,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "40 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),
+        expiredate: DateTime.now(),
+        email: "task@gmail.com",phone: "01200686884",),
     OffersModel(
         image: "assets/images/study.png",
         rate: 2.2,
@@ -717,7 +789,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "25 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),
+        expiredate: DateTime.now(),
+        email: "task@gmail.com",phone: "01200686884",),
     OffersModel(
         image: "assets/images/visa.png",
         rate: 2.2,
@@ -725,7 +798,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "40 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),
+        expiredate: DateTime.now(),
+        email: "task@gmail.com",phone: "01200686884",),
   ],
     ), CategoryModel(
       image: 'assets/images/travel.png',
@@ -738,7 +812,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "10 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),      
+        expiredate: DateTime.now(),
+        email: "task@gmail.com",phone: "01200686884",),      
   
     OffersModel(
         image: "assets/images/visa.png",
@@ -747,7 +822,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "40 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),
+        expiredate: DateTime.now(),
+        email: "task@gmail.com",phone: "01200686884",),
     OffersModel(
         image: "assets/images/study.png",
         rate: 2.2,
@@ -755,7 +831,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "25 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),
+        expiredate: DateTime.now(),
+        email: "task@gmail.com",phone: "01200686884",),
     OffersModel(
         image: "assets/images/visa.png",
         rate: 2.2,
@@ -763,7 +840,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "40 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),
+        expiredate: DateTime.now(),
+        email: "task@gmail.com",phone: "01200686884",),
        
   ],
     ),
@@ -778,7 +856,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "10 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),      
+        expiredate: DateTime.now(),
+        email: "task@gmail.com",phone: "01200686884",),      
   
     OffersModel(
         image: "assets/images/visa.png",
@@ -787,7 +866,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "40 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),
+        expiredate: DateTime.now(),
+        email: "task@gmail.com",phone: "01200686884",),
     OffersModel(
         image: "assets/images/study.png",
         rate: 2.2,
@@ -795,7 +875,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "25 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),
+        expiredate: DateTime.now(),
+        email: "task@gmail.com",phone: "01200686884",),
     OffersModel(
         image: "assets/images/visa.png",
         rate: 2.2,
@@ -803,7 +884,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "40 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),
+        expiredate: DateTime.now(),
+        email: "task@gmail.com",phone: "01200686884",),
        
   ],
     ),
@@ -818,7 +900,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "10 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),      
+        expiredate: DateTime.now(),
+        email: "task@gmail.com",phone: "01200686884",),      
   
     OffersModel(
         image: "assets/images/visa.png",
@@ -827,7 +910,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "40 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),
+        expiredate: DateTime.now(),
+        email: "task@gmail.com",phone: "01200686884",),
     OffersModel(
         image: "assets/images/study.png",
         rate: 2.2,
@@ -835,7 +919,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "25 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),
+        expiredate: DateTime.now(),
+        email: "task@gmail.com",phone: "01200686884",),
     OffersModel(
         image: "assets/images/visa.png",
         rate: 2.2,
@@ -843,7 +928,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "40 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),
+        expiredate: DateTime.now(),
+        email: "task@gmail.com",phone: "01200686884",),
        
   ],
     ),
@@ -858,7 +944,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "10 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),      
+        expiredate: DateTime.now(),
+        email: "task@gmail.com",phone: "01200686884",),      
   
     OffersModel(
         image: "assets/images/visa.png",
@@ -867,7 +954,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "40 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),
+        expiredate: DateTime.now(),
+        email: "task@gmail.com",phone: "01200686884",),
     OffersModel(
         image: "assets/images/study.png",
         rate: 2.2,
@@ -875,7 +963,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "25 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),
+        expiredate: DateTime.now(),
+        email: "task@gmail.com",phone: "01200686884",),
     OffersModel(
         image: "assets/images/visa.png",
         rate: 2.2,
@@ -883,7 +972,8 @@ class _OffersScreenState extends State<OffersScreen> {
         title: "Place title here",
         offerPercenatge: "40 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()),
+        expiredate: DateTime.now(),
+        email: "task@gmail.com",phone: "01200686884",),
     
   ],
     ),

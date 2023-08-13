@@ -77,7 +77,7 @@ class _MealDetailState extends State<MealDetail> {
                               child:SvgPicture.asset("assets/images/icn_star_rate_large.svg",height: 15,),),
                               SizedBox(width: 6,),
                           Container(
-                            child: Text(ratenum.toString(),style: TextStyle(fontSize: 10),),
+                            child: Text(widget.offer!.rate.toString(),style: TextStyle(fontSize: 10),),
                           ),
                     ],
                   ),
@@ -183,7 +183,7 @@ class _MealDetailState extends State<MealDetail> {
                         width: 10,
                       ),
                       Text(
-                        "mail@etisalat.com",
+                        widget.offer!.email,
                         style: TextStyle(
                           color: Color(0xff505050),fontSize: 14,
                         ),
@@ -204,7 +204,7 @@ class _MealDetailState extends State<MealDetail> {
                         width: 10,
                       ),
                       Text(
-                        "01116805555",
+                        widget.offer!.phone,
                         style: TextStyle(
                           color: Color(0xff505050),fontSize: 14,
                         ),
@@ -301,7 +301,6 @@ class _MealDetailState extends State<MealDetail> {
                                             Rate(
                                               iconSize: 40,
                                               color: Colors.yellow.shade800,
-                                              allowHalf: true,
                                               allowClear: true,
                                               readOnly: false,
                                               onChange: (v) => setState(() {
@@ -328,8 +327,7 @@ class _MealDetailState extends State<MealDetail> {
                                               
                                               Navigator.pop(context);
                                    ratenum =widget.offer!.rate;
-     print(ratenum);
-                                              print(ratenum);
+  
                                               
                                             },
                                             child: Text("Submit" , style: TextStyle(fontSize: 16,),)),
@@ -393,6 +391,7 @@ class _MealDetailState extends State<MealDetail> {
                 iconSize: 40,
                 color: Colors.yellow.shade800,
                 allowHalf: false,
+                initialValue: ratenum,
                 allowClear: true,
                 readOnly: false,
                 onChange: (ratenum) => print(ratenum),

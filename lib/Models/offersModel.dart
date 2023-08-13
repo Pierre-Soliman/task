@@ -9,6 +9,8 @@ class OffersModel
 final String offerPercenatge;
 final String daysRemiaining ;
 final DateTime expiredate;
+final String email ;
+final String phone ;
 
 
 OffersModel({
@@ -19,6 +21,8 @@ required this.title,
  required this.offerPercenatge,
   required this.daysRemiaining,
   required this.expiredate,
+  required this.email,
+  required this.phone
   });
 
 

@@ -20,7 +20,6 @@ class _CategorydetailState extends State<Categorydetail> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // appBar: AppBar(leading: SizedBox.shrink(),elevation: 0,backgroundColor: Colors.transparent,),
       body: SingleChildScrollView(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -54,21 +53,10 @@ class _CategorydetailState extends State<Categorydetail> {
                           color: Colors.black,
                         ),
                       onPressed: (){Navigator.pop(context);},
-                      // backgroundColor: Colors.transparent,
-                      // elevation: 0,
-                      // toolbarHeight: 100,
-                      // automaticallyImplyLeading: false,
-                      // leading: InkWell(
-                      //   onTap: () {
-                      //     Navigator.pop(context);
-                      //   },
-                      //   child: Image.asset(
-                      //     "assets/images/iconback.png",
-                      //     color: Colors.black,
-                      //   ),
-                      // ),
+                     
                     ),
                   ),
+                  Spacer(),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
@@ -80,7 +68,7 @@ class _CategorydetailState extends State<Categorydetail> {
                               TextStyle(color: Color(0xff505050), fontSize: 20),
                         ),
                       ),
-                      Container(padding: EdgeInsets.all(20),
+                      Container(padding: EdgeInsets.all(15),
                         child: Text(
                           "${widget.category!.offers.length.toString()} Offers",
                           style:
