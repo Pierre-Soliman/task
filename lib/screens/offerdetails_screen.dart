@@ -77,7 +77,7 @@ class _MealDetailState extends State<MealDetail> {
                               child:SvgPicture.asset("assets/images/icn_star_rate_large.svg",height: 15,),),
                               SizedBox(width: 6,),
                           Container(
-                            child: Text(widget.offer!.rate.toString(),style: TextStyle(fontSize: 10),),
+                            child: Text(ratenum.toString(),style: TextStyle(fontSize: 10),),
                           ),
                     ],
                   ),
