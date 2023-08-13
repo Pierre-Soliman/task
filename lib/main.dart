@@ -17,6 +17,7 @@ class MyApp extends StatelessWidget {
       title: 'Task',
      theme: ThemeData(fontFamily: 'SuisseIntl-Light'),
       home:  Home(),
+      debugShowCheckedModeBanner: false,
       initialRoute: Home.routeName,
       routes: routes,
 

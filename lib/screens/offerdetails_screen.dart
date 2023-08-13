@@ -392,7 +392,7 @@ class _MealDetailState extends State<MealDetail> {
               Rate(
                 iconSize: 40,
                 color: Colors.yellow.shade800,
-                allowHalf: true,
+                allowHalf: false,
                 allowClear: true,
                 readOnly: false,
                 onChange: (ratenum) => print(ratenum),
