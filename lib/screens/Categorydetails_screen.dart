@@ -73,28 +73,32 @@ class _CategorydetailState extends State<Categorydetail> {
       body: SingleChildScrollView(
         child: Column(
           children: [
+            
             SizedBox(height: 10,),
-              ListView.separated(
-                separatorBuilder: (BuildContext context, int index) {
-                  return SizedBox(height: 10);
-                },
-                shrinkWrap: true,
-                physics: const NeverScrollableScrollPhysics(),
-                itemCount:  widget.category!.offers.length,
-                itemBuilder: (context, index) {
-                  return Item(
-                      image: widget.offers![index].image,
-                      rate: widget.offers![index].rate,
-                      categeoryName:widget.offers![index].categeoryName,
-                      title: widget.offers![index].title,
-                      offerPercenatge: widget.offers![index].offerPercenatge,
-                      daysRemiaining: widget.offers![index].daysRemiaining,
-                      press: () {   Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                              builder: ((context) => MealDetail(offer: widget.offers![index],))));
-});
-                },
+              Padding(
+                padding: const EdgeInsets.all(15.0),
+                child: ListView.separated(
+                  separatorBuilder: (BuildContext context, int index) {
+                    return SizedBox(height: 10);
+                  },
+                  shrinkWrap: true,
+                  physics: const NeverScrollableScrollPhysics(),
+                  itemCount:  widget.category!.offers.length,
+                  itemBuilder: (context, index) {
+                    return Item(
+                        image: widget.offers![index].image,
+                        rate: widget.offers![index].rate,
+                        categeoryName:"",
+                        title: widget.offers![index].title,
+                        offerPercenatge: widget.offers![index].offerPercenatge,
+                        daysRemiaining: widget.offers![index].daysRemiaining,
+                        press: () {   Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: ((context) => MealDetail(offer: widget.offers![index],))));
+              });
+                  },
+                ),
               ),
             
           ],

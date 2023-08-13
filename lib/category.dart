@@ -19,8 +19,7 @@ class categeory extends StatelessWidget {
         children: [         
                 Container(
                   height: 95,
-                  margin: EdgeInsets.all(5),
-                  padding: EdgeInsets.all(0),
+                  margin: EdgeInsets.all(2),
                   child: Image.asset(
                     image,
                     fit: BoxFit.cover,
@@ -32,13 +31,13 @@ class categeory extends StatelessWidget {
                   ),
                 ),
                Positioned(
-                bottom: 20,
+                bottom: 15,
                 left: 12,
                 // top: 2,
                  child: Container(
                     child: Text(
                       txt,
-                      style: TextStyle(color: Colors.white, fontSize: 14),
+                      style: TextStyle(color: Colors.white, fontSize: 12),
                     ),
                   ),
                ),

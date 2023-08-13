@@ -88,7 +88,7 @@ class _MealDetailState extends State<MealDetail> {
         ),
       ),
       body: SingleChildScrollView(
-        padding: EdgeInsets.symmetric(horizontal: 10, vertical: 10),
+        padding: EdgeInsets.all(20),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.start,
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -98,7 +98,7 @@ class _MealDetailState extends State<MealDetail> {
                 widget.offer!.title,
                 style: TextStyle(
                     color: Color(0xff505050),
-                    fontSize: 25,
+                    fontSize: 20,
                     fontWeight: FontWeight.bold),
               ),
             ),
@@ -108,7 +108,7 @@ class _MealDetailState extends State<MealDetail> {
             Container(
                 child: Text(
               widget.offer!.offerPercenatge,
-              style: TextStyle(color: Color(0xffC6A25B), fontSize: 20),
+              style: TextStyle(color: Color(0xffC6A25B), fontSize: 16),
             )),
             SizedBox(
               height: 10,
@@ -117,7 +117,7 @@ class _MealDetailState extends State<MealDetail> {
               child: Text(
                 "About",
                 style: TextStyle(
-                  fontSize: 15,
+                  fontSize: 16,
                   color: Color(0xff505050),
                 ),
               ),
@@ -137,7 +137,7 @@ class _MealDetailState extends State<MealDetail> {
                   Text(
                     "Lorem ipsum dolor sit amet, consetetur s ts sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam",
                     style: TextStyle(
-                      color: Color(0xff505050),
+                      color: Color(0xff505050),fontSize: 14,
                     ),
                   ),
                   SizedBox(
@@ -145,10 +145,11 @@ class _MealDetailState extends State<MealDetail> {
                   ),
                   Row(
                     children: [
-                      Icon(Icons.file_download_off_outlined),
+                      Image.asset("assets/images/icondownload.svg"),
+                      SizedBox(width: 5,),
                       Text(
                         "Get more info",
-                        style: TextStyle(fontWeight: FontWeight.bold),
+                        style: TextStyle(fontWeight: FontWeight.bold , fontSize: 14),
                       ),
                     ],
                   ),
@@ -161,7 +162,7 @@ class _MealDetailState extends State<MealDetail> {
             Text(
               "Contact info",
               style: TextStyle(
-                  color: Colors.grey.shade600, fontWeight: FontWeight.bold),
+                  color: Colors.grey.shade600, fontWeight: FontWeight.bold, fontSize: 16),
             ),
             SizedBox(
               height: 10,
@@ -184,7 +185,7 @@ class _MealDetailState extends State<MealDetail> {
                       Text(
                         "mail@etisalat.com",
                         style: TextStyle(
-                          color: Color(0xff505050),
+                          color: Color(0xff505050),fontSize: 14,
                         ),
                       ),
                     ],
@@ -205,7 +206,7 @@ class _MealDetailState extends State<MealDetail> {
                       Text(
                         "01116805555",
                         style: TextStyle(
-                          color: Color(0xff505050),
+                          color: Color(0xff505050),fontSize: 14,
                         ),
                       ),
                     ],
@@ -259,7 +260,7 @@ class _MealDetailState extends State<MealDetail> {
                                             Text(
                                               "Rate Your Experience",
                                               style: TextStyle(
-                                                color: Color(0xff505050),
+                                                color: Color(0xff505050),fontSize: 20,
                                               ),
                                             ),
                                             InkWell(
@@ -277,7 +278,7 @@ class _MealDetailState extends State<MealDetail> {
                                         Text(
                                           "How was you experience with\n Daddy’s burger?",
                                           style: TextStyle(
-                                            color: Color(0xff505050),
+                                            color: Color(0xff505050),fontSize: 16,
                                           ),
                                           textAlign: TextAlign.center,
                                         ),
@@ -287,7 +288,7 @@ class _MealDetailState extends State<MealDetail> {
                                         Text(
                                           'Very Good',
                                           style: TextStyle(
-                                            color: Color(0xff505050),
+                                            color: Color(0xff505050),fontSize: 14,
                                           ),
                                         ),
                                         SizedBox(
@@ -331,7 +332,7 @@ class _MealDetailState extends State<MealDetail> {
                                               print(ratenum);
                                               
                                             },
-                                            child: Text("Submit")),
+                                            child: Text("Submit" , style: TextStyle(fontSize: 16,),)),
                                       ],
                                     ),
                                   ),
@@ -363,7 +364,7 @@ class _MealDetailState extends State<MealDetail> {
           Text(
             "Rate Your experience",
             style: TextStyle(
-              color: Color(0xff505050),
+              color: Color(0xff505050),fontSize: 14,
             ),
           ),
         ],
@@ -380,7 +381,7 @@ class _MealDetailState extends State<MealDetail> {
           Text(
             'Your rated this offer',
             style: TextStyle(
-              color: Color(0xff505050),
+              color: Color(0xff505050),fontSize: 14,
             ),
           ),
           SizedBox(
@@ -402,14 +403,17 @@ class _MealDetailState extends State<MealDetail> {
             height: 15,
           ),
           Row(
-            children: [],
-          ),
-          Text(
+            children: [
+              // Icon(Icons.star_border),
+              Text(
             "Change Rate",
             style: TextStyle(
-              color: Color(0xff505050),
-            ),
+              color: Color(0xff505050),fontSize: 14,fontWeight: FontWeight.bold
+            ),),
+            ],
           ),
+          
+          
         ],
       ),
     );

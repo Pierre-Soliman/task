@@ -35,13 +35,13 @@ class _AllCategoriesState extends State<AllCategories> {
           ),
           backgroundColor: Colors.white,
           title: Padding(
-            padding: const EdgeInsets.all(20.0),
+            padding: const EdgeInsets.all(30.0),
             child: Text("Offers Categories",
                 style: TextStyle(color: Color(0xff505050),fontSize: 20)),
           )),
       body: SingleChildScrollView(
         child: Padding(
-          padding: EdgeInsets.all(10.0),
+          padding: EdgeInsets.all(8.0),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: <Widget>[

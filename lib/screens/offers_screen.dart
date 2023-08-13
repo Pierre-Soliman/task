@@ -19,8 +19,17 @@ class OffersScreen extends StatefulWidget {
 
 class _OffersScreenState extends State<OffersScreen> {
   final List<OffersModel> offers = [
-    OffersModel(
+      OffersModel(
         image: "assets/images/bmw.png",
+        rate: 2.2,
+        categeoryName: "Category goes here",
+        title: "Place title here",
+        offerPercenatge: "10 % Offer",
+        daysRemiaining: " 4 days remaining",
+        expiredate: DateTime.now()),      
+  
+    OffersModel(
+        image: "assets/images/visa.png",
         rate: 2.2,
         categeoryName: "Category goes here",
         title: "Place title here",
@@ -28,7 +37,7 @@ class _OffersScreenState extends State<OffersScreen> {
         daysRemiaining: " 4 days remaining",
         expiredate: DateTime.now()),
     OffersModel(
-        image: "assets/images/bmw.png",
+        image: "assets/images/study.png",
         rate: 2.2,
         categeoryName: "Category goes here",
         title: "Place title here",
@@ -36,13 +45,14 @@ class _OffersScreenState extends State<OffersScreen> {
         daysRemiaining: " 4 days remaining",
         expiredate: DateTime.now()),
     OffersModel(
-        image: "assets/images/bmw.png",
+        image: "assets/images/visa.png",
         rate: 2.2,
         categeoryName: "Category goes here",
         title: "Place title here",
-        offerPercenatge: "10 % Offer",
+        offerPercenatge: "40 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()), 
+        expiredate: DateTime.now()),
+      
        
   ];
   final List<CategoryModel> categories = [
@@ -50,8 +60,17 @@ class _OffersScreenState extends State<OffersScreen> {
       image: 'assets/images/book.png',
       txt: "Book Stores",
       offers:[
-    OffersModel(
+         OffersModel(
         image: "assets/images/bmw.png",
+        rate: 2.2,
+        categeoryName: "Category goes here",
+        title: "Place title here",
+        offerPercenatge: "10 % Offer",
+        daysRemiaining: " 4 days remaining",
+        expiredate: DateTime.now()),      
+  
+    OffersModel(
+        image: "assets/images/visa.png",
         rate: 2.2,
         categeoryName: "Category goes here",
         title: "Place title here",
@@ -59,7 +78,7 @@ class _OffersScreenState extends State<OffersScreen> {
         daysRemiaining: " 4 days remaining",
         expiredate: DateTime.now()),
     OffersModel(
-        image: "assets/images/bmw.png",
+        image: "assets/images/study.png",
         rate: 2.2,
         categeoryName: "Category goes here",
         title: "Place title here",
@@ -67,21 +86,29 @@ class _OffersScreenState extends State<OffersScreen> {
         daysRemiaining: " 4 days remaining",
         expiredate: DateTime.now()),
     OffersModel(
-        image: "assets/images/bmw.png",
+        image: "assets/images/visa.png",
         rate: 2.2,
         categeoryName: "Category goes here",
         title: "Place title here",
-        offerPercenatge: "10 % Offer",
+        offerPercenatge: "40 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()), 
-       
-  ],),
+        expiredate: DateTime.now()),
+      ],),
     CategoryModel(
       image: 'assets/images/donuts.png',
       txt: "Dining",
       offers:[
+     OffersModel(
+        image: "assets/images/burger.png",
+        rate: 2.2,
+        categeoryName: "Category goes here",
+        title: "Daddy's Burger",
+        offerPercenatge: "10 % Offer",
+        daysRemiaining: " 4 days remaining",
+        expiredate: DateTime.now()),      
+  
     OffersModel(
-        image: "assets/images/bmw.png",
+        image: "assets/images/pic.png",
         rate: 2.2,
         categeoryName: "Category goes here",
         title: "Place title here",
@@ -89,7 +116,7 @@ class _OffersScreenState extends State<OffersScreen> {
         daysRemiaining: " 4 days remaining",
         expiredate: DateTime.now()),
     OffersModel(
-        image: "assets/images/bmw.png",
+        image: "assets/images/desert.png",
         rate: 2.2,
         categeoryName: "Category goes here",
         title: "Place title here",
@@ -97,22 +124,38 @@ class _OffersScreenState extends State<OffersScreen> {
         daysRemiaining: " 4 days remaining",
         expiredate: DateTime.now()),
     OffersModel(
-        image: "assets/images/bmw.png",
+        image: "assets/images/pic2.png",
         rate: 2.2,
         categeoryName: "Category goes here",
         title: "Place title here",
-        offerPercenatge: "10 % Offer",
+        offerPercenatge: "40 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()), 
-       
+        expiredate: DateTime.now()),
+        OffersModel(
+        image: "assets/images/pic3.png",
+        rate: 2.2,
+        categeoryName: "Category goes here",
+        title: "Place title here",
+        offerPercenatge: "40 % Offer",
+        daysRemiaining: " 4 days remaining",
+        expiredate: DateTime.now()),
   ],
     ),
     CategoryModel(
       image: 'assets/images/playsation.png',
       txt: "Entertainment",
       offers: [
-    OffersModel(
+     OffersModel(
         image: "assets/images/bmw.png",
+        rate: 2.2,
+        categeoryName: "Category goes here",
+        title: "Place title here",
+        offerPercenatge: "10 % Offer",
+        daysRemiaining: " 4 days remaining",
+        expiredate: DateTime.now()),      
+  
+    OffersModel(
+        image: "assets/images/visa.png",
         rate: 2.2,
         categeoryName: "Category goes here",
         title: "Place title here",
@@ -120,7 +163,7 @@ class _OffersScreenState extends State<OffersScreen> {
         daysRemiaining: " 4 days remaining",
         expiredate: DateTime.now()),
     OffersModel(
-        image: "assets/images/bmw.png",
+        image: "assets/images/study.png",
         rate: 2.2,
         categeoryName: "Category goes here",
         title: "Place title here",
@@ -128,22 +171,30 @@ class _OffersScreenState extends State<OffersScreen> {
         daysRemiaining: " 4 days remaining",
         expiredate: DateTime.now()),
     OffersModel(
-        image: "assets/images/bmw.png",
+        image: "assets/images/visa.png",
         rate: 2.2,
         categeoryName: "Category goes here",
         title: "Place title here",
-        offerPercenatge: "10 % Offer",
+        offerPercenatge: "40 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()), 
-       
+        expiredate: DateTime.now()),
   ],
     ),
     CategoryModel(
       image: 'assets/images/bags.png',
       txt: "Fashion",
       offers:[
-    OffersModel(
+     OffersModel(
         image: "assets/images/bmw.png",
+        rate: 2.2,
+        categeoryName: "Category goes here",
+        title: "Place title here",
+        offerPercenatge: "10 % Offer",
+        daysRemiaining: " 4 days remaining",
+        expiredate: DateTime.now()),      
+  
+    OffersModel(
+        image: "assets/images/visa.png",
         rate: 2.2,
         categeoryName: "Category goes here",
         title: "Place title here",
@@ -151,7 +202,7 @@ class _OffersScreenState extends State<OffersScreen> {
         daysRemiaining: " 4 days remaining",
         expiredate: DateTime.now()),
     OffersModel(
-        image: "assets/images/bmw.png",
+        image: "assets/images/study.png",
         rate: 2.2,
         categeoryName: "Category goes here",
         title: "Place title here",
@@ -159,22 +210,30 @@ class _OffersScreenState extends State<OffersScreen> {
         daysRemiaining: " 4 days remaining",
         expiredate: DateTime.now()),
     OffersModel(
-        image: "assets/images/bmw.png",
+        image: "assets/images/visa.png",
         rate: 2.2,
         categeoryName: "Category goes here",
         title: "Place title here",
-        offerPercenatge: "10 % Offer",
+        offerPercenatge: "40 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()), 
-       
+        expiredate: DateTime.now()),
   ],
     ),
      CategoryModel(
       image: 'assets/images/alarm.png',
-      txt: "Seasonal \n Alarm",
+      txt: "Seasonal \n Offers",
       offers: [
-    OffersModel(
+     OffersModel(
         image: "assets/images/bmw.png",
+        rate: 2.2,
+        categeoryName: "Category goes here",
+        title: "Place title here",
+        offerPercenatge: "10 % Offer",
+        daysRemiaining: " 4 days remaining",
+        expiredate: DateTime.now()),      
+  
+    OffersModel(
+        image: "assets/images/visa.png",
         rate: 2.2,
         categeoryName: "Category goes here",
         title: "Place title here",
@@ -182,7 +241,7 @@ class _OffersScreenState extends State<OffersScreen> {
         daysRemiaining: " 4 days remaining",
         expiredate: DateTime.now()),
     OffersModel(
-        image: "assets/images/bmw.png",
+        image: "assets/images/study.png",
         rate: 2.2,
         categeoryName: "Category goes here",
         title: "Place title here",
@@ -190,22 +249,30 @@ class _OffersScreenState extends State<OffersScreen> {
         daysRemiaining: " 4 days remaining",
         expiredate: DateTime.now()),
     OffersModel(
-        image: "assets/images/bmw.png",
+        image: "assets/images/visa.png",
         rate: 2.2,
         categeoryName: "Category goes here",
         title: "Place title here",
-        offerPercenatge: "10 % Offer",
+        offerPercenatge: "40 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()), 
-       
+        expiredate: DateTime.now()),
   ],
     ),
      CategoryModel(
       image: 'assets/images/home.png',
       txt: "Home & Furniture",
       offers: [
-    OffersModel(
+     OffersModel(
         image: "assets/images/bmw.png",
+        rate: 2.2,
+        categeoryName: "Category goes here",
+        title: "Place title here",
+        offerPercenatge: "10 % Offer",
+        daysRemiaining: " 4 days remaining",
+        expiredate: DateTime.now()),      
+  
+    OffersModel(
+        image: "assets/images/visa.png",
         rate: 2.2,
         categeoryName: "Category goes here",
         title: "Place title here",
@@ -213,7 +280,7 @@ class _OffersScreenState extends State<OffersScreen> {
         daysRemiaining: " 4 days remaining",
         expiredate: DateTime.now()),
     OffersModel(
-        image: "assets/images/bmw.png",
+        image: "assets/images/study.png",
         rate: 2.2,
         categeoryName: "Category goes here",
         title: "Place title here",
@@ -221,13 +288,13 @@ class _OffersScreenState extends State<OffersScreen> {
         daysRemiaining: " 4 days remaining",
         expiredate: DateTime.now()),
     OffersModel(
-        image: "assets/images/bmw.png",
+        image: "assets/images/visa.png",
         rate: 2.2,
         categeoryName: "Category goes here",
         title: "Place title here",
-        offerPercenatge: "10 % Offer",
+        offerPercenatge: "40 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()), 
+        expiredate: DateTime.now()),
        
   ],
     ), CategoryModel(
@@ -239,11 +306,20 @@ class _OffersScreenState extends State<OffersScreen> {
         rate: 2.2,
         categeoryName: "Category goes here",
         title: "Place title here",
+        offerPercenatge: "10 % Offer",
+        daysRemiaining: " 4 days remaining",
+        expiredate: DateTime.now()),      
+  
+    OffersModel(
+        image: "assets/images/visa.png",
+        rate: 2.2,
+        categeoryName: "Category goes here",
+        title: "Place title here",
         offerPercenatge: "40 % Offer",
         daysRemiaining: " 4 days remaining",
         expiredate: DateTime.now()),
     OffersModel(
-        image: "assets/images/bmw.png",
+        image: "assets/images/study.png",
         rate: 2.2,
         categeoryName: "Category goes here",
         title: "Place title here",
@@ -251,11 +327,11 @@ class _OffersScreenState extends State<OffersScreen> {
         daysRemiaining: " 4 days remaining",
         expiredate: DateTime.now()),
     OffersModel(
-        image: "assets/images/bmw.png",
+        image: "assets/images/visa.png",
         rate: 2.2,
         categeoryName: "Category goes here",
         title: "Place title here",
-        offerPercenatge: "10 % Offer",
+        offerPercenatge: "40 % Offer",
         daysRemiaining: " 4 days remaining",
         expiredate: DateTime.now()), 
        
@@ -264,8 +340,17 @@ class _OffersScreenState extends State<OffersScreen> {
       image: 'assets/images/appliances.png',
       txt: "Appliances",
       offers: [
-    OffersModel(
+     OffersModel(
         image: "assets/images/bmw.png",
+        rate: 2.2,
+        categeoryName: "Category goes here",
+        title: "Place title here",
+        offerPercenatge: "10 % Offer",
+        daysRemiaining: " 4 days remaining",
+        expiredate: DateTime.now()),      
+  
+    OffersModel(
+        image: "assets/images/visa.png",
         rate: 2.2,
         categeoryName: "Category goes here",
         title: "Place title here",
@@ -273,7 +358,7 @@ class _OffersScreenState extends State<OffersScreen> {
         daysRemiaining: " 4 days remaining",
         expiredate: DateTime.now()),
     OffersModel(
-        image: "assets/images/bmw.png",
+        image: "assets/images/study.png",
         rate: 2.2,
         categeoryName: "Category goes here",
         title: "Place title here",
@@ -281,21 +366,30 @@ class _OffersScreenState extends State<OffersScreen> {
         daysRemiaining: " 4 days remaining",
         expiredate: DateTime.now()),
     OffersModel(
-        image: "assets/images/bmw.png",
+        image: "assets/images/visa.png",
         rate: 2.2,
         categeoryName: "Category goes here",
         title: "Place title here",
-        offerPercenatge: "10 % Offer",
+        offerPercenatge: "40 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()), 
+        expiredate: DateTime.now()),
        
   ],
     ), CategoryModel(
       image: 'assets/images/Automotive.png',
       txt: "Automotive",
       offers: [
-    OffersModel(
+     OffersModel(
         image: "assets/images/bmw.png",
+        rate: 2.2,
+        categeoryName: "Category goes here",
+        title: "Place title here",
+        offerPercenatge: "10 % Offer",
+        daysRemiaining: " 4 days remaining",
+        expiredate: DateTime.now()),      
+  
+    OffersModel(
+        image: "assets/images/visa.png",
         rate: 2.2,
         categeoryName: "Category goes here",
         title: "Place title here",
@@ -303,7 +397,7 @@ class _OffersScreenState extends State<OffersScreen> {
         daysRemiaining: " 4 days remaining",
         expiredate: DateTime.now()),
     OffersModel(
-        image: "assets/images/bmw.png",
+        image: "assets/images/study.png",
         rate: 2.2,
         categeoryName: "Category goes here",
         title: "Place title here",
@@ -311,13 +405,13 @@ class _OffersScreenState extends State<OffersScreen> {
         daysRemiaining: " 4 days remaining",
         expiredate: DateTime.now()),
     OffersModel(
-        image: "assets/images/bmw.png",
+        image: "assets/images/visa.png",
         rate: 2.2,
         categeoryName: "Category goes here",
         title: "Place title here",
-        offerPercenatge: "10 % Offer",
+        offerPercenatge: "40 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()), 
+        expiredate: DateTime.now()),
        
   ],
     ),  CategoryModel(
@@ -329,11 +423,20 @@ class _OffersScreenState extends State<OffersScreen> {
         rate: 2.2,
         categeoryName: "Category goes here",
         title: "Place title here",
+        offerPercenatge: "10 % Offer",
+        daysRemiaining: " 4 days remaining",
+        expiredate: DateTime.now()),      
+  
+    OffersModel(
+        image: "assets/images/visa.png",
+        rate: 2.2,
+        categeoryName: "Category goes here",
+        title: "Place title here",
         offerPercenatge: "40 % Offer",
         daysRemiaining: " 4 days remaining",
         expiredate: DateTime.now()),
     OffersModel(
-        image: "assets/images/bmw.png",
+        image: "assets/images/study.png",
         rate: 2.2,
         categeoryName: "Category goes here",
         title: "Place title here",
@@ -341,21 +444,30 @@ class _OffersScreenState extends State<OffersScreen> {
         daysRemiaining: " 4 days remaining",
         expiredate: DateTime.now()),
     OffersModel(
-        image: "assets/images/bmw.png",
+        image: "assets/images/visa.png",
         rate: 2.2,
         categeoryName: "Category goes here",
         title: "Place title here",
-        offerPercenatge: "10 % Offer",
+        offerPercenatge: "40 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()), 
+        expiredate: DateTime.now()),
        
   ],
     ), CategoryModel(
       image: 'assets/images/medical.png',
       txt: "Medical",
       offers: [
-    OffersModel(
+     OffersModel(
         image: "assets/images/bmw.png",
+        rate: 2.2,
+        categeoryName: "Category goes here",
+        title: "Place title here",
+        offerPercenatge: "10 % Offer",
+        daysRemiaining: " 4 days remaining",
+        expiredate: DateTime.now()),      
+  
+    OffersModel(
+        image: "assets/images/visa.png",
         rate: 2.2,
         categeoryName: "Category goes here",
         title: "Place title here",
@@ -363,7 +475,7 @@ class _OffersScreenState extends State<OffersScreen> {
         daysRemiaining: " 4 days remaining",
         expiredate: DateTime.now()),
     OffersModel(
-        image: "assets/images/bmw.png",
+        image: "assets/images/study.png",
         rate: 2.2,
         categeoryName: "Category goes here",
         title: "Place title here",
@@ -371,14 +483,13 @@ class _OffersScreenState extends State<OffersScreen> {
         daysRemiaining: " 4 days remaining",
         expiredate: DateTime.now()),
     OffersModel(
-        image: "assets/images/bmw.png",
+        image: "assets/images/visa.png",
         rate: 2.2,
         categeoryName: "Category goes here",
         title: "Place title here",
-        offerPercenatge: "10 % Offer",
+        offerPercenatge: "40 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()), 
-       
+        expiredate: DateTime.now()),
   ],
     ), CategoryModel(
       image: 'assets/images/RealState.png',
@@ -389,11 +500,20 @@ class _OffersScreenState extends State<OffersScreen> {
         rate: 2.2,
         categeoryName: "Category goes here",
         title: "Place title here",
+        offerPercenatge: "10 % Offer",
+        daysRemiaining: " 4 days remaining",
+        expiredate: DateTime.now()),      
+  
+    OffersModel(
+        image: "assets/images/visa.png",
+        rate: 2.2,
+        categeoryName: "Category goes here",
+        title: "Place title here",
         offerPercenatge: "40 % Offer",
         daysRemiaining: " 4 days remaining",
         expiredate: DateTime.now()),
     OffersModel(
-        image: "assets/images/bmw.png",
+        image: "assets/images/study.png",
         rate: 2.2,
         categeoryName: "Category goes here",
         title: "Place title here",
@@ -401,21 +521,30 @@ class _OffersScreenState extends State<OffersScreen> {
         daysRemiaining: " 4 days remaining",
         expiredate: DateTime.now()),
     OffersModel(
-        image: "assets/images/bmw.png",
+        image: "assets/images/visa.png",
         rate: 2.2,
         categeoryName: "Category goes here",
         title: "Place title here",
-        offerPercenatge: "10 % Offer",
+        offerPercenatge: "40 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()), 
+        expiredate: DateTime.now()),
        
   ],
     ), CategoryModel(
       image: 'assets/images/Schools.png',
       txt: "Schools & Nurses",
       offers: [
-    OffersModel(
+     OffersModel(
         image: "assets/images/bmw.png",
+        rate: 2.2,
+        categeoryName: "Category goes here",
+        title: "Place title here",
+        offerPercenatge: "10 % Offer",
+        daysRemiaining: " 4 days remaining",
+        expiredate: DateTime.now()),      
+  
+    OffersModel(
+        image: "assets/images/visa.png",
         rate: 2.2,
         categeoryName: "Category goes here",
         title: "Place title here",
@@ -423,7 +552,7 @@ class _OffersScreenState extends State<OffersScreen> {
         daysRemiaining: " 4 days remaining",
         expiredate: DateTime.now()),
     OffersModel(
-        image: "assets/images/bmw.png",
+        image: "assets/images/study.png",
         rate: 2.2,
         categeoryName: "Category goes here",
         title: "Place title here",
@@ -431,21 +560,30 @@ class _OffersScreenState extends State<OffersScreen> {
         daysRemiaining: " 4 days remaining",
         expiredate: DateTime.now()),
     OffersModel(
-        image: "assets/images/bmw.png",
+        image: "assets/images/visa.png",
         rate: 2.2,
         categeoryName: "Category goes here",
         title: "Place title here",
-        offerPercenatge: "10 % Offer",
+        offerPercenatge: "40 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()), 
+        expiredate: DateTime.now()),
        
   ],
     ), CategoryModel(
       image: 'assets/images/travel.png',
       txt: "Special Travel",
       offers: [
-    OffersModel(
+     OffersModel(
         image: "assets/images/bmw.png",
+        rate: 2.2,
+        categeoryName: "Category goes here",
+        title: "Place title here",
+        offerPercenatge: "10 % Offer",
+        daysRemiaining: " 4 days remaining",
+        expiredate: DateTime.now()),      
+  
+    OffersModel(
+        image: "assets/images/visa.png",
         rate: 2.2,
         categeoryName: "Category goes here",
         title: "Place title here",
@@ -453,7 +591,7 @@ class _OffersScreenState extends State<OffersScreen> {
         daysRemiaining: " 4 days remaining",
         expiredate: DateTime.now()),
     OffersModel(
-        image: "assets/images/bmw.png",
+        image: "assets/images/study.png",
         rate: 2.2,
         categeoryName: "Category goes here",
         title: "Place title here",
@@ -461,13 +599,13 @@ class _OffersScreenState extends State<OffersScreen> {
         daysRemiaining: " 4 days remaining",
         expiredate: DateTime.now()),
     OffersModel(
-        image: "assets/images/bmw.png",
+        image: "assets/images/visa.png",
         rate: 2.2,
         categeoryName: "Category goes here",
         title: "Place title here",
-        offerPercenatge: "10 % Offer",
+        offerPercenatge: "40 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()), 
+        expiredate: DateTime.now()),
        
   ],
     ),
@@ -477,8 +615,17 @@ class _OffersScreenState extends State<OffersScreen> {
       image: 'assets/images/Accessories.png',
       txt: "Accessories, Jewelry & Optics",
       offers: [
-    OffersModel(
+     OffersModel(
         image: "assets/images/bmw.png",
+        rate: 2.2,
+        categeoryName: "Category goes here",
+        title: "Place title here",
+        offerPercenatge: "10 % Offer",
+        daysRemiaining: " 4 days remaining",
+        expiredate: DateTime.now()),      
+  
+    OffersModel(
+        image: "assets/images/visa.png",
         rate: 2.2,
         categeoryName: "Category goes here",
         title: "Place title here",
@@ -486,7 +633,7 @@ class _OffersScreenState extends State<OffersScreen> {
         daysRemiaining: " 4 days remaining",
         expiredate: DateTime.now()),
     OffersModel(
-        image: "assets/images/bmw.png",
+        image: "assets/images/study.png",
         rate: 2.2,
         categeoryName: "Category goes here",
         title: "Place title here",
@@ -494,21 +641,30 @@ class _OffersScreenState extends State<OffersScreen> {
         daysRemiaining: " 4 days remaining",
         expiredate: DateTime.now()),
     OffersModel(
-        image: "assets/images/bmw.png",
+        image: "assets/images/visa.png",
         rate: 2.2,
         categeoryName: "Category goes here",
         title: "Place title here",
-        offerPercenatge: "10 % Offer",
+        offerPercenatge: "40 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()), 
+        expiredate: DateTime.now()),
        
   ],
     ), CategoryModel(
       image: 'assets/images/RealState.png',
       txt: "Real Estate",
       offers: [
-    OffersModel(
+      OffersModel(
         image: "assets/images/bmw.png",
+        rate: 2.2,
+        categeoryName: "Category goes here",
+        title: "Place title here",
+        offerPercenatge: "10 % Offer",
+        daysRemiaining: " 4 days remaining",
+        expiredate: DateTime.now()),      
+  
+    OffersModel(
+        image: "assets/images/visa.png",
         rate: 2.2,
         categeoryName: "Category goes here",
         title: "Place title here",
@@ -516,7 +672,7 @@ class _OffersScreenState extends State<OffersScreen> {
         daysRemiaining: " 4 days remaining",
         expiredate: DateTime.now()),
     OffersModel(
-        image: "assets/images/bmw.png",
+        image: "assets/images/study.png",
         rate: 2.2,
         categeoryName: "Category goes here",
         title: "Place title here",
@@ -524,21 +680,30 @@ class _OffersScreenState extends State<OffersScreen> {
         daysRemiaining: " 4 days remaining",
         expiredate: DateTime.now()),
     OffersModel(
-        image: "assets/images/bmw.png",
+        image: "assets/images/visa.png",
         rate: 2.2,
         categeoryName: "Category goes here",
         title: "Place title here",
-        offerPercenatge: "10 % Offer",
+        offerPercenatge: "40 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()), 
+        expiredate: DateTime.now()),
        
   ],
     ), CategoryModel(
       image: 'assets/images/Schools.png',
       txt: "Schools & Nurses",
       offers: [
-    OffersModel(
+     OffersModel(
         image: "assets/images/bmw.png",
+        rate: 2.2,
+        categeoryName: "Category goes here",
+        title: "Place title here",
+        offerPercenatge: "10 % Offer",
+        daysRemiaining: " 4 days remaining",
+        expiredate: DateTime.now()),      
+  
+    OffersModel(
+        image: "assets/images/visa.png",
         rate: 2.2,
         categeoryName: "Category goes here",
         title: "Place title here",
@@ -546,7 +711,7 @@ class _OffersScreenState extends State<OffersScreen> {
         daysRemiaining: " 4 days remaining",
         expiredate: DateTime.now()),
     OffersModel(
-        image: "assets/images/bmw.png",
+        image: "assets/images/study.png",
         rate: 2.2,
         categeoryName: "Category goes here",
         title: "Place title here",
@@ -554,21 +719,29 @@ class _OffersScreenState extends State<OffersScreen> {
         daysRemiaining: " 4 days remaining",
         expiredate: DateTime.now()),
     OffersModel(
-        image: "assets/images/bmw.png",
+        image: "assets/images/visa.png",
         rate: 2.2,
         categeoryName: "Category goes here",
         title: "Place title here",
-        offerPercenatge: "10 % Offer",
+        offerPercenatge: "40 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()), 
-       
+        expiredate: DateTime.now()),
   ],
     ), CategoryModel(
       image: 'assets/images/travel.png',
       txt: "Special Travel",
       offers: [
-    OffersModel(
+  OffersModel(
         image: "assets/images/bmw.png",
+        rate: 2.2,
+        categeoryName: "Category goes here",
+        title: "Place title here",
+        offerPercenatge: "10 % Offer",
+        daysRemiaining: " 4 days remaining",
+        expiredate: DateTime.now()),      
+  
+    OffersModel(
+        image: "assets/images/visa.png",
         rate: 2.2,
         categeoryName: "Category goes here",
         title: "Place title here",
@@ -576,7 +749,7 @@ class _OffersScreenState extends State<OffersScreen> {
         daysRemiaining: " 4 days remaining",
         expiredate: DateTime.now()),
     OffersModel(
-        image: "assets/images/bmw.png",
+        image: "assets/images/study.png",
         rate: 2.2,
         categeoryName: "Category goes here",
         title: "Place title here",
@@ -584,13 +757,13 @@ class _OffersScreenState extends State<OffersScreen> {
         daysRemiaining: " 4 days remaining",
         expiredate: DateTime.now()),
     OffersModel(
-        image: "assets/images/bmw.png",
+        image: "assets/images/visa.png",
         rate: 2.2,
         categeoryName: "Category goes here",
         title: "Place title here",
-        offerPercenatge: "10 % Offer",
+        offerPercenatge: "40 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()), 
+        expiredate: DateTime.now()),
        
   ],
     ),
@@ -603,11 +776,20 @@ class _OffersScreenState extends State<OffersScreen> {
         rate: 2.2,
         categeoryName: "Category goes here",
         title: "Place title here",
+        offerPercenatge: "10 % Offer",
+        daysRemiaining: " 4 days remaining",
+        expiredate: DateTime.now()),      
+  
+    OffersModel(
+        image: "assets/images/visa.png",
+        rate: 2.2,
+        categeoryName: "Category goes here",
+        title: "Place title here",
         offerPercenatge: "40 % Offer",
         daysRemiaining: " 4 days remaining",
         expiredate: DateTime.now()),
     OffersModel(
-        image: "assets/images/bmw.png",
+        image: "assets/images/study.png",
         rate: 2.2,
         categeoryName: "Category goes here",
         title: "Place title here",
@@ -615,13 +797,13 @@ class _OffersScreenState extends State<OffersScreen> {
         daysRemiaining: " 4 days remaining",
         expiredate: DateTime.now()),
     OffersModel(
-        image: "assets/images/bmw.png",
+        image: "assets/images/visa.png",
         rate: 2.2,
         categeoryName: "Category goes here",
         title: "Place title here",
-        offerPercenatge: "10 % Offer",
+        offerPercenatge: "40 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()), 
+        expiredate: DateTime.now()),
        
   ],
     ),
@@ -629,8 +811,17 @@ class _OffersScreenState extends State<OffersScreen> {
       image: 'assets/images/kids.png',
       txt: "Kids",
       offers:[
-    OffersModel(
+     OffersModel(
         image: "assets/images/bmw.png",
+        rate: 2.2,
+        categeoryName: "Category goes here",
+        title: "Place title here",
+        offerPercenatge: "10 % Offer",
+        daysRemiaining: " 4 days remaining",
+        expiredate: DateTime.now()),      
+  
+    OffersModel(
+        image: "assets/images/visa.png",
         rate: 2.2,
         categeoryName: "Category goes here",
         title: "Place title here",
@@ -638,7 +829,7 @@ class _OffersScreenState extends State<OffersScreen> {
         daysRemiaining: " 4 days remaining",
         expiredate: DateTime.now()),
     OffersModel(
-        image: "assets/images/bmw.png",
+        image: "assets/images/study.png",
         rate: 2.2,
         categeoryName: "Category goes here",
         title: "Place title here",
@@ -646,13 +837,13 @@ class _OffersScreenState extends State<OffersScreen> {
         daysRemiaining: " 4 days remaining",
         expiredate: DateTime.now()),
     OffersModel(
-        image: "assets/images/bmw.png",
+        image: "assets/images/visa.png",
         rate: 2.2,
         categeoryName: "Category goes here",
         title: "Place title here",
-        offerPercenatge: "10 % Offer",
+        offerPercenatge: "40 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()), 
+        expiredate: DateTime.now()),
        
   ],
     ),
@@ -660,8 +851,17 @@ class _OffersScreenState extends State<OffersScreen> {
       image: 'assets/images/other.png',
       txt: "Other",
       offers: [
-    OffersModel(
+     OffersModel(
         image: "assets/images/bmw.png",
+        rate: 2.2,
+        categeoryName: "Category goes here",
+        title: "Place title here",
+        offerPercenatge: "10 % Offer",
+        daysRemiaining: " 4 days remaining",
+        expiredate: DateTime.now()),      
+  
+    OffersModel(
+        image: "assets/images/visa.png",
         rate: 2.2,
         categeoryName: "Category goes here",
         title: "Place title here",
@@ -669,7 +869,7 @@ class _OffersScreenState extends State<OffersScreen> {
         daysRemiaining: " 4 days remaining",
         expiredate: DateTime.now()),
     OffersModel(
-        image: "assets/images/bmw.png",
+        image: "assets/images/study.png",
         rate: 2.2,
         categeoryName: "Category goes here",
         title: "Place title here",
@@ -677,13 +877,13 @@ class _OffersScreenState extends State<OffersScreen> {
         daysRemiaining: " 4 days remaining",
         expiredate: DateTime.now()),
     OffersModel(
-        image: "assets/images/bmw.png",
+        image: "assets/images/visa.png",
         rate: 2.2,
         categeoryName: "Category goes here",
         title: "Place title here",
-        offerPercenatge: "10 % Offer",
+        offerPercenatge: "40 % Offer",
         daysRemiaining: " 4 days remaining",
-        expiredate: DateTime.now()), 
+        expiredate: DateTime.now()),
     
   ],
     ),
@@ -707,7 +907,7 @@ class _OffersScreenState extends State<OffersScreen> {
         elevation: 0,
         backgroundColor: Colors.white,
         title: 
-                Text("E-Offers", style: TextStyle(color: Color(0xff505050),fontFamily: 'SuisseIntl-Light',fontSize: 20))),
+                Center(child: Text("E-Offers", style: TextStyle(color: Color(0xff505050),fontFamily: 'SuisseIntl-Light',fontSize: 20)))),
       
       body: SingleChildScrollView(
         child: Padding(
