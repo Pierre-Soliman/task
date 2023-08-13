@@ -20,43 +20,53 @@ class _CategorydetailState extends State<Categorydetail> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      // appBar: AppBar(leading: SizedBox.shrink(),elevation: 0,backgroundColor: Colors.transparent,),
       body: SingleChildScrollView(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Container(
+              height: 200,
+            padding: EdgeInsets.all(10),
               decoration: BoxDecoration(
-                 image: DecorationImage(
+ image: DecorationImage(
                   opacity: 0.5,
                     image: AssetImage(widget.category!.image),
                     fit: BoxFit.fill),
                 gradient: LinearGradient(
-                  begin: Alignment.topCenter,
-                  end: Alignment.bottomCenter,
+                  begin:Alignment.bottomCenter,
+                  end: Alignment.topCenter,
                   colors: [
-                    Colors.white.withOpacity(0.8),
-                    Colors.transparent.withOpacity(0.0),
+                    Colors.white.withOpacity(0.5),
+                    Colors.transparent.withOpacity(0.5),
                   ],
                 ),
               ),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
+                mainAxisAlignment:  MainAxisAlignment.start,
                 children: [
                   Container(
-                    child: AppBar(
-                      backgroundColor: Colors.transparent,
-                      elevation: 0,
-                      toolbarHeight: 100,
-                      automaticallyImplyLeading: false,
-                      leading: InkWell(
-                        onTap: () {
-                          Navigator.pop(context);
-                        },
-                        child: Image.asset(
+                    height: 100,
+                    child: MaterialButton(
+                      child: Image.asset(
                           "assets/images/iconback.png",
                           color: Colors.black,
                         ),
-                      ),
+                      onPressed: (){Navigator.pop(context);},
+                      // backgroundColor: Colors.transparent,
+                      // elevation: 0,
+                      // toolbarHeight: 100,
+                      // automaticallyImplyLeading: false,
+                      // leading: InkWell(
+                      //   onTap: () {
+                      //     Navigator.pop(context);
+                      //   },
+                      //   child: Image.asset(
+                      //     "assets/images/iconback.png",
+                      //     color: Colors.black,
+                      //   ),
+                      // ),
                     ),
                   ),
                   Row(
