@@ -34,7 +34,7 @@ class _CategorydetailState extends State<Categorydetail> {
                   begin: Alignment.topCenter,
                   end: Alignment.bottomCenter,
                   colors: [
-                    Colors.pink.shade100.withOpacity(0.5),
+                    Colors.white.withOpacity(0.8),
                     Colors.transparent.withOpacity(0.0),
                   ],
                 ),
