@@ -3,7 +3,9 @@ import 'package:task/Models/categoryOfOffers.dart';
 import 'package:task/Models/offersModel.dart';
 import 'package:task/Widgets/category.dart';
 import 'package:task/Screens/offerdetails_screen.dart';
-import '../item.dart';
+
+import '../Widgets/item.dart';
+
 
 class Categorydetail extends StatefulWidget {
   const Categorydetail({super.key, this.category, this.offers});

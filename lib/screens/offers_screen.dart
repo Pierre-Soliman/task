@@ -5,7 +5,7 @@ import 'package:task/Models/offersModel.dart';
 import 'package:task/Screens/Categorydetails_screen.dart';
 import 'package:task/Screens/offerdetails_screen.dart';
 import '../Widgets/category.dart';
-import '../item.dart';
+import '../Widgets/item.dart';
 
 class OffersScreen extends StatefulWidget {
   OffersScreen({super.key});
