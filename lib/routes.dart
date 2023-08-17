@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:task/screens/AllCategories_screen.dart';
-import 'package:task/screens/Categorydetails_screen.dart';
-import 'package:task/screens/Home_Screen.dart';
-import 'package:task/screens/offerdetails_screen.dart';
-import 'package:task/screens/offers_screen.dart';
+import 'package:task/Screens/AllCategories_screen.dart';
+import 'package:task/Screens/Categorydetails_screen.dart';
+import 'package:task/Screens/Home_Screen.dart';
+import 'package:task/Screens/offerdetails_screen.dart';
+import 'package:task/Screens/offers_screen.dart';
 
 
 

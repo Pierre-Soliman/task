@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:task/screens/offers_screen.dart';
+import 'package:task/Screens/offers_screen.dart';
 
 class Home extends StatelessWidget {
   const Home({super.key});
@@ -15,11 +15,13 @@ class Home extends StatelessWidget {
         child: Center(
           child: ElevatedButton(
             style: ElevatedButton.styleFrom(
-    primary: Color(0xff505050) // Background color
-  ),
-              onPressed: (){Navigator.pushNamed(context, '/OffersScreen');},
-              child: const Text("Start"),
-              ),
+                primary: Color(0xff505050), 
+                ),
+            onPressed: () {
+              Navigator.pushNamed(context, '/OffersScreen');
+            },
+            child: const Text("Start"),
+          ),
         ),
       ),
     );

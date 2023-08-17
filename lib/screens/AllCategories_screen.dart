@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:task/Models/offersModel.dart';
-import 'package:task/screens/Categorydetails_screen.dart';
-import 'package:task/category.dart';
-import 'package:task/screens/offerdetails_screen.dart';
+import 'package:task/Screens/Categorydetails_screen.dart';
+import 'package:task/Screens/offerdetails_screen.dart';
 import 'package:task/Models/categoryOfOffers.dart';
+import '../Widgets/category.dart';
 import 'offers_screen.dart';
 
 class AllCategories extends StatefulWidget {
@@ -37,45 +37,46 @@ class _AllCategoriesState extends State<AllCategories> {
           title: Padding(
             padding: const EdgeInsets.all(30.0),
             child: Text("Offers Categories",
-                style: TextStyle(color: Color(0xff505050),fontSize: 20)),
+                style: TextStyle(color: Color(0xff505050), fontSize: 20)),
           )),
       body: SingleChildScrollView(
         child: Padding(
           padding: EdgeInsets.all(8.0),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.stretch,
-              children: <Widget>[
-                GridView.builder(
-                  physics: const NeverScrollableScrollPhysics(),
-                  gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
-                      maxCrossAxisExtent: 250,
-                      childAspectRatio: 4 / 2,
-                      crossAxisSpacing: 1,
-                      mainAxisSpacing: 1),
-                  shrinkWrap: true,
-                  itemCount: widget.categories!.length,
-                  itemBuilder: (context, index) {
-                    return InkWell(
-                       onTap: () {
-              Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                      builder: ((context) => Categorydetail(
-                            offers: widget.categories![index].offers,category: widget.categories![index],
-                          ))));},
-                      child: categeory(
-                        image: widget.categories![index].image,
-                        txt: widget.categories![index].txt,
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: <Widget>[
+              GridView.builder(
+                physics: const NeverScrollableScrollPhysics(),
+                gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
+                    maxCrossAxisExtent: 250,
+                    childAspectRatio: 4 / 2,
+                    crossAxisSpacing: 1,
+                    mainAxisSpacing: 1),
+                shrinkWrap: true,
+                itemCount: widget.categories!.length,
+                itemBuilder: (context, index) {
+                  return InkWell(
+                    onTap: () {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: ((context) => Categorydetail(
+                                    offers: widget.categories![index].offers,
+                                    category: widget.categories![index],
+                                  ))));
+                    },
+                    child: categeory(
+                      image: widget.categories![index].image,
+                      txt: widget.categories![index].txt,
                     ),
-                    );
-                  },
-                ),
-                SizedBox(
-                  height: 10,
-                ),
-              ],
-            ),
-        
+                  );
+                },
+              ),
+              SizedBox(
+                height: 10,
+              ),
+            ],
+          ),
         ),
       ),
     );

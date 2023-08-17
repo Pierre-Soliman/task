@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:task/screens/Home_Screen.dart';
-import 'package:task/screens/offers_screen.dart';
+import 'package:task/Screens/Home_Screen.dart';
+import 'package:task/Screens/offers_screen.dart';
 import 'package:task/routes.dart';
 
 void main() {

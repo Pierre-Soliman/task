@@ -17,14 +17,7 @@ class MealDetail extends StatefulWidget {
 }
 
 class _MealDetailState extends State<MealDetail> {
-  double ratenum=0;
-
-  @override
-  void initState() {
-   
-    super.initState();
-  }
-
+  double ratenum = 0;
 
 
   @override
@@ -63,22 +56,31 @@ class _MealDetailState extends State<MealDetail> {
                 right: 30,
                 child: Container(
                   height: 28,
-                  
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(12),
                     color: Colors.grey[50],
                   ),
                   width: 50,
                   child: Row(
-                    
                     children: [
-                      SizedBox(width: 3,),
-                     Container(
-                              child:SvgPicture.asset("assets/images/icn_star_rate_large.svg",height: 15,),),
-                              SizedBox(width: 6,),
-                          Container(
-                            child: Text(widget.offer!.rate.toString(),style: TextStyle(fontSize: 10),),
-                          ),
+                      SizedBox(
+                        width: 3,
+                      ),
+                      Container(
+                        child: SvgPicture.asset(
+                          "assets/images/icn_star_rate_large.svg",
+                          height: 15,
+                        ),
+                      ),
+                      SizedBox(
+                        width: 6,
+                      ),
+                      Container(
+                        child: Text(
+                          widget.offer!.rate.toString(),
+                          style: TextStyle(fontSize: 10),
+                        ),
+                      ),
                     ],
                   ),
                 ),
@@ -137,7 +139,8 @@ class _MealDetailState extends State<MealDetail> {
                   Text(
                     "Lorem ipsum dolor sit amet, consetetur s ts sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam",
                     style: TextStyle(
-                      color: Color(0xff505050),fontSize: 14,
+                      color: Color(0xff505050),
+                      fontSize: 14,
                     ),
                   ),
                   SizedBox(
@@ -146,10 +149,13 @@ class _MealDetailState extends State<MealDetail> {
                   Row(
                     children: [
                       Image.asset("assets/images/icondownload.svg"),
-                      SizedBox(width: 5,),
+                      SizedBox(
+                        width: 5,
+                      ),
                       Text(
                         "Get more info",
-                        style: TextStyle(fontWeight: FontWeight.bold , fontSize: 14),
+                        style: TextStyle(
+                            fontWeight: FontWeight.bold, fontSize: 14),
                       ),
                     ],
                   ),
@@ -162,7 +168,9 @@ class _MealDetailState extends State<MealDetail> {
             Text(
               "Contact info",
               style: TextStyle(
-                  color: Colors.grey.shade600, fontWeight: FontWeight.bold, fontSize: 16),
+                  color: Colors.grey.shade600,
+                  fontWeight: FontWeight.bold,
+                  fontSize: 16),
             ),
             SizedBox(
               height: 10,
@@ -185,7 +193,8 @@ class _MealDetailState extends State<MealDetail> {
                       Text(
                         widget.offer!.email,
                         style: TextStyle(
-                          color: Color(0xff505050),fontSize: 14,
+                          color: Color(0xff505050),
+                          fontSize: 14,
                         ),
                       ),
                     ],
@@ -206,7 +215,8 @@ class _MealDetailState extends State<MealDetail> {
                       Text(
                         widget.offer!.phone,
                         style: TextStyle(
-                          color: Color(0xff505050),fontSize: 14,
+                          color: Color(0xff505050),
+                          fontSize: 14,
                         ),
                       ),
                     ],
@@ -260,7 +270,8 @@ class _MealDetailState extends State<MealDetail> {
                                             Text(
                                               "Rate Your Experience",
                                               style: TextStyle(
-                                                color: Color(0xff505050),fontSize: 20,
+                                                color: Color(0xff505050),
+                                                fontSize: 20,
                                               ),
                                             ),
                                             InkWell(
@@ -278,7 +289,8 @@ class _MealDetailState extends State<MealDetail> {
                                         Text(
                                           "How was you experience with\n Daddy’s burger?",
                                           style: TextStyle(
-                                            color: Color(0xff505050),fontSize: 16,
+                                            color: Color(0xff505050),
+                                            fontSize: 16,
                                           ),
                                           textAlign: TextAlign.center,
                                         ),
@@ -288,7 +300,8 @@ class _MealDetailState extends State<MealDetail> {
                                         Text(
                                           'Very Good',
                                           style: TextStyle(
-                                            color: Color(0xff505050),fontSize: 14,
+                                            color: Color(0xff505050),
+                                            fontSize: 14,
                                           ),
                                         ),
                                         SizedBox(
@@ -304,9 +317,8 @@ class _MealDetailState extends State<MealDetail> {
                                               allowClear: true,
                                               readOnly: false,
                                               onChange: (v) => setState(() {
-                                                 ratenum=v ;
-                                                 print(ratenum);
-                                                 
+                                                ratenum = v;
+                                                print(ratenum);
                                               }),
                                             ),
                                           ],
@@ -324,13 +336,15 @@ class _MealDetailState extends State<MealDetail> {
                                               primary: Colors.black,
                                             ),
                                             onPressed: () {
-                                              
                                               Navigator.pop(context);
-                                   ratenum =widget.offer!.rate;
-  
-                                              
+                                              ratenum = widget.offer!.rate;
                                             },
-                                            child: Text("Submit" , style: TextStyle(fontSize: 16,),)),
+                                            child: Text(
+                                              "Submit",
+                                              style: TextStyle(
+                                                fontSize: 16,
+                                              ),
+                                            )),
                                       ],
                                     ),
                                   ),
@@ -339,8 +353,7 @@ class _MealDetailState extends State<MealDetail> {
                             );
                           });
                     },
-                    child:
-                         ratenum == 0 ? rateContainer(): afterchangerate() ,
+                    child: ratenum == 0 ? rateContainer() : afterchangerate(),
                   ),
                 ],
               ),
@@ -362,7 +375,8 @@ class _MealDetailState extends State<MealDetail> {
           Text(
             "Rate Your experience",
             style: TextStyle(
-              color: Color(0xff505050),fontSize: 14,
+              color: Color(0xff505050),
+              fontSize: 14,
             ),
           ),
         ],
@@ -379,7 +393,8 @@ class _MealDetailState extends State<MealDetail> {
           Text(
             'Your rated this offer',
             style: TextStyle(
-              color: Color(0xff505050),fontSize: 14,
+              color: Color(0xff505050),
+              fontSize: 14,
             ),
           ),
           SizedBox(
@@ -405,14 +420,14 @@ class _MealDetailState extends State<MealDetail> {
             children: [
               // Icon(Icons.star_border),
               Text(
-            "Change Rate",
-            style: TextStyle(
-              color: Color(0xff505050),fontSize: 14,fontWeight: FontWeight.bold
-            ),),
+                "Change Rate",
+                style: TextStyle(
+                    color: Color(0xff505050),
+                    fontSize: 14,
+                    fontWeight: FontWeight.bold),
+              ),
             ],
           ),
-          
-          
         ],
       ),
     );
